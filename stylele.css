@@ -3,6 +3,9 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+* { user-select: none; }
+*::selection { background: none; }
+*::-moz-selection { background: none; }
 body{
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
